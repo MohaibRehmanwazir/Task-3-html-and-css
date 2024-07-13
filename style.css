@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+}
+
+.col-1 {
+    border: 2px solid orange;
+    width: 50%;
+    /* margin-top: 100px; */
+    background-color: blue;
+   
+}
+.heading h1 {
+    margin-top: 150px;
+    border: none;
+    color: white;
+}
+
+.col-2 {
+    border: 2px solid black;
+    width: 50%;
+    padding: 30px 20px;
+}
+
+.heading {
+    /* border: 2px solid red; */
+    margin: 40px 0 0 30px ;
+    /* color: #fff; */
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    border: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+
+}
+
+.login p {
+    margin: 20px 0;
+    
+
+}
+
+.form-row label {
+    color: black;
+}
+
+.form-row input {
+    padding: 9px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(192, 189, 189);
+}
+
+.user {
+    margin-top: 30px;
+}
+
+.check span {
+    color: blueviolet;
+}
+
+.SignUp {
+    color: blueviolet;
+}
